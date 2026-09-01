@@ -7,3 +7,9 @@ Primero el sensor se deja calentar durante un tiempo definido, una vez cumplido 
 <p align="center">
   <img src="Imagenes/MAQUINA%20DE%20ESTADO.png" alt="Mi Máquina de Estado" width="60%">
 </p>
+
+- t: tiempo.
+- c: concentración de CO2 en ppm.
+- t_calibración: tiempo definido de precalentamiento del sensor.
+- t_off: tiempo de apagado del sensor hasta que el ambiente se considere "seguro".
+- c_límite: concentración de CO2 máxima definida por el usuario.
