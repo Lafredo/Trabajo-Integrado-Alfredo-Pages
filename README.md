@@ -7,5 +7,3 @@ Primero el sensor se deja calentar durante un tiempo definido, una vez cumplido 
 <p align="center">
   <img src="Imagenes/MAQUINA%20DE%20ESTADO.png" alt="Mi Máquina de Estado" width="60%">
 </p>
-
-![Mi Máquina de Estado](Imagenes/MAQUINA%20DE%20ESTADO.png)
