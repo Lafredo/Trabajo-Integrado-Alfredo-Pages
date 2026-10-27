@@ -16,19 +16,21 @@ typedef struct {
   char c_lim;   //limite de CO2
 }variables_t;
 
-variables_t f_inicio(void); // lee el archivo de configuración y carga las variables.
+variables_t f_inicio(){
 
-estados_t f_calentar(variables_t){
+} // lee el archivo de configuración y carga las variables.
 
-}
+estados_t f_calentar(variables_t config){
 
-estados_t f_sensado(variables_t){
+}// precalienta el sensor y devuelve el siguiente estado SENSING.
 
-}
+estados_t f_sensado(variables_t config){
 
-estados_t f_alarmado(variables_t){
+}// lee el sensor y devuelve el siguiente estado ALARM.
 
-}
+estados_t f_alarmado(variables_t config){
+
+}// prende la alarma y vuelve al estado ON.
 
 estados_t (*fsm[])(variables_t);
 
